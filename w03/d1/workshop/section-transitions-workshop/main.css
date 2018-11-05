@@ -1,0 +1,39 @@
+
+.sec {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  padding: 300px;
+
+}
+
+section{
+  height: 800px;
+  background: orange;
+  padding-top: 400px;
+}
+div{
+  height: 800px;
+  background: purple;
+  text-align: center;
+}
+p{
+  text-align: left;
+  padding-left: 600px;
+
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.show{
+  transition: view .06s;
+}
+
+
+@keyframes view {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+
+}
