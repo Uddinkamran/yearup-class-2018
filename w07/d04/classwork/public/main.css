@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: rebeccapurple;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: tomato;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 200%;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movies List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Fill Out This Form</h1>
+
+    <form action="/" method="POST">
+        <input type="text" name="quiry">
+        <br/>
+        <input type="submit">
+    </form>
+      <%=  "<br\>"%>
+      <%=  "<br\>"%>
+       
+<% for item in @books do %>
+   <h2> <%=item.title%> </h2>
+
+   <img src="<%=item.image_link%>"/>
+
+   <h2> <%=item.authors%> </h2>
+
+<% end %>
+
+
+
+</body>
+</html>
